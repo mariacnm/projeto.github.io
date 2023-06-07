@@ -1,0 +1,75 @@
+body{
+    background-color: #e6eeff;
+}
+.header_index{
+    border:none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #e6eeff;
+    
+}
+.main_index{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding-bottom: 5px;
+    background-color: #e6eeff;
+}
+.h1_nomeapp{
+    font-size: 40px;
+    color: #1B3E85;
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 90px;
+    padding-right: 0px;
+}
+.container{
+    display: flex;
+    width: 420px;
+    padding-bottom: 30px;
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 30px;
+    background-color: #e6eeff;
+}
+.porcentagem{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    color:#1B3E85;
+}
+.progress_bar{
+    width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:conic-gradient(#1B3E85 148deg,#FFEFA1 0.0deg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress_bar::before{
+    content: "";
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50% ;
+}
+.lista_icones_usuario{
+    display:flex;
+    height: 10px;
+    margin:4rem ;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+.icones{
+    padding-left:15px;
+    padding-right:15px;
+}
